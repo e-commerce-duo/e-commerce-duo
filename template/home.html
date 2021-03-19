@@ -3,179 +3,382 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naturel Tagline </title>
-    <link rel="shortcut icon" href="../assets/image/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Responsive Food/Resturant Website Design Tutorial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/home.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
 
-    <!--nav bar-->
-    <header>
+    <!-- header section starts -->
 
-        <div class="topnav" id="myTopnav">
-            <a class="logo">
-                <img src="../assets/image/logo.jpg" width='200'>
-            </a>
-            <a onclick="openSearch()"><i class="fa fa-search"></i></a>
-            <a href="#"><i class="fa fa-user"></i></a>
-            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+    <header id="header">
 
-            <div class="dropdown"><button class="dropbtn">Products <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a href="#">Essentials Oils</a>
-                    <a href="#">Cereal</a>
-                    <a href="#">Seeds</a>
-                </div>
-            </div>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-            <a href="#" class="active">Home</a>
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#Category">Category</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="login.html">login</a></li>
+                <li style="float:right">
+                    <a href="cart.html"> <img src="../assets/image/cart-plus-solid.svg" width=50px></a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="naturel"></div>
+
+        <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+
     </header>
-    <div id="navbar">
-        <div class="slide-menu">
-            <a class="logo"><img src="../assets/image/logo.jpg" width='10'></a>
-            <a onclick="openSearch()"><i class="fa fa-search"></i></a>
-            <a href="#"><i class="fa fa-user"></i></a>
-            <a href="#"><i class="fa fa-shopping-cart"></i></a>
-            <a href="#">Grocery Menu</a>
-            <div class="dropdown"><button class="dropbtn">Products <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a href="#">ESSENTIALS OILS</a>
-                    <a href="#">CEREALS</a>
-                    <a href="#">SEEDS</a>
+
+
+
+    <!-- home section starts  -->
+
+    <section id="home" class="container-fluid">
+
+        <div class="row min-vh-100 align-items-center">
+
+            <div class="col-md-8 ml-md-5 text-md-left text-center content">
+                <h1>nature is eternally young</h1>
+                <h2>she possesses the secret of happiness and no one has been able to take it away from her</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta vel quisquam nostrum cum minima nobis consequatur alias eius omnis dolorem.</p>
+                <a href="#Category"><button>get started</button></a>
+            </div>
+
+            <div class="image-container">
+                <img src="../assets/image/brooke-lark-nTZOILVZuOg-unsplash.jpg" class="img img1">
+                <img src="../assets/image/brooke-lark-qdyBKWSzpSI-unsplash.jpg" class="img img2">
+                <img src="../assets/image/brooke-lark-uZjF45POZP4-unsplash.jpg" class="img img3">
+            </div>
+
+            <div class="controls">
+                <div class="dots dot1"></div>
+                <div class="dots dot2"></div>
+                <div class="dots dot3"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Category card section starts  -->
+
+    <section id="Category" class="container-fluid">
+
+        <div class="heading text-center">
+            <h1>our <span>Category</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, atque.</p>
+        </div>
+
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="../assets/image/amal.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque eum nam, officia porro dicta molestiae! Veniam, nemo aliquid. Repellat, iste.</p>
+                <a href="#"><button>View</button></a>
+            </div>
+
+            <div class="card">
+                <img src="../assets/image/téléchargement.jfif" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque eum nam, officia porro dicta molestiae! Veniam, nemo aliquid. Repellat, iste.</p>
+                <a href="#"><button>View</button></a>
+            </div>
+
+            <div class="card">
+                <img src="../assets/image/chia.jpg" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque eum nam, officia porro dicta molestiae! Veniam, nemo aliquid. Repellat, iste.</p>
+                <a href="#"><button>View</button></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section id="about" class="container">
+
+        <div class="heading text-center">
+            <h1><span>about</span> us</h1>
+        </div>
+
+        <div class="row min-vh-100">
+
+            <div class="col-md-6 text-center text-md-left align-self-center content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi recusandae iusto, perferendis earum laboriosam rerum et quisquam iste vel commodi corporis praesentium porro impedit ullam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci iure aliquam illum quaerat quia voluptate.</p>
+                <a href="#"><button>learn more</button></a>
+            </div>
+
+            <div class="col-md-6 image">
+                <img src="images/pic.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends  -->
+
+
+    <!-- product section starts  -->
+
+    <section id="product" class="container">
+
+        <div class="heading text-center">
+            <h1>our <span>product</span></h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="../assets/image/cereal3.jpg" alt="">
+                <div class="info">
+                    <h3>Cereal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <a href="product.html"><button>view</button></a>
                 </div>
             </div>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-            <a href="#" class="active">Home</a>
-        </div>
-    </div>
 
+            <div class="box">
+                <img src="../assets/image/cereal2.png" alt="">
+                <div class="info">
+                    <h3>Cereal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <a href="product.html"><button>view</button></a>
+                </div>
+            </div>
 
+            <div class="box">
+                <img src="../assets/image/" alt="">
+                <div class="info">
+                    <h3>Flaxseed</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <a href="product.html"><button>view</button></a>
+                </div>
+            </div>
 
-    <!--MAIN-->
-    <div class="main">
-        <section>
-            <h1 class="title ml9">
-                <span class="text-wrapper">
-    <span class="letters">HEALTHY <em style="color:#138275;">GREEN</em> PRODUCT</span>
-                </span>
-            </h1>
-            <h5 class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
-            <a href="#" class="btn1">CHOOSE YOUR PRODUCT</a>
-        </section>
-    </div>
-    <!--SECTION0-->
-    <section class="section0">
-        <center>
-            <!--CARD STARTS-->
-            <div class="card inline-photo show-on-scroll">
-                <table>
-                    <tr>
-                        <td><i class="fa fa-leaf"></i></td>
-                        <td>
-                            <h2 class="title">Balanced Diet</h2>
-                            <span class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></td>
-                    </tr>
-                </table>
+            <div class="box">
+                <img src="../assets/image/seeds2.jpg" alt="">
+                <div class="info">
+                    <h3>chia seed</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <a href="product.html"><button>view</button></a>
+                </div>
             </div>
-            <!--CARD ENDS-->
-            <!--CARD STARTS-->
-            <div class="card inline-photo show-on-scroll">
-                <table>
-                    <tr>
-                        <td><i class="fa fa-shopping-cart"></i></td>
-                        <td>
-                            <h2 class="title">Doorstep delivery</h2>
-                            <span class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></td>
-                    </tr>
-                </table>
+
+            <div class="box">
+                <img src="../assets/image/oil2.png" alt="">
+                <div class="info">
+                    <h3>almond oil </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <a href="product.html"><button>view</button></a>
+                </div>
             </div>
-            <!--CARD ENDS-->
-            <!--CARD STARTS-->
-            <div class="card inline-photo show-on-scroll">
-                <table>
-                    <tr>
-                        <td><i class="fa fa-tag"></i></td>
-                        <td>
-                            <h2 class="title">Price guarantee</h2>
-                            <span class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></td>
-                    </tr>
-                </table>
+
+            <div class="box">
+                <img src="../assets/image/oil1.jpg" alt="">
+                <div class="info">
+                    <h3>resin oil </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nihil.</p>
+                    <a href="product.html"><button>view</button></a>
+                </div>
             </div>
-            <!--CARD ENDS-->
-            <!--CARD STARTS-->
-            <div class="card inline-photo show-on-scroll">
-                <table>
-                    <tr>
-                        <td><i class="fa fa-line-chart"></i></td>
-                        <td>
-                            <h2 class="title">Discover new</h2>
-                            <span class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></td>
-                    </tr>
-                </table>
-            </div>
-            <!--CARD ENDS-->
-    </section>
-    <!--SECTION1-->
-    <section class="section1">
-        <!--CARD STARTS-->
-        <div class="cards inline-photo show-on-scroll">
-            <section>
-                <h1 class="title">PULSES</h1>
-                <span class="sub-title">100% Organic Products</span>
-                <a href="#" class="btn1">CHECK OUT</a>
-            </section>
+
         </div>
-        <!--CARD ENDS-->
-        <!--CARD STARTS-->
-        <div class="cards inline-photo show-on-scroll">
-            <section>
-                <h1 class="title">CEREALS</h1>
-                <span class="sub-title">100% Organic Products</span>
-                <a href="#" class="btn1">CHECK OUT</a>
-            </section>
-        </div>
-        <!--CARD ENDS-->
-        <!--CARD STARTS-->
-        <div class="cards inline-photo show-on-scroll">
-            <section>
-                <h1 class="title">NUTS</h1>
-                <span class="sub-title">100% Organic Products</span>
-                <a href="#" class="btn1">CHECK OUT</a>
-            </section>
-        </div>
-        <!--CARD ENDS-->
+
     </section>
 
+    <!-- product section ends  -->
+
+    <!-- contact section starts  -->
+
+    <section id="contact" class="container-fluid">
+
+        <div class="heading text-center">
+            <h1><span>contact</span> us</h1>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <form action="" class="col-md-7">
+
+                <div class="inputBox">
+                    <input type="text" required>
+                    <h3>full name</h3>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" required>
+                    <h3>e-mail</h3>
+                </div>
+
+                <div class="inputBox">
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <h3>message</h3>
+                </div>
+
+                <input type="submit" value="send">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends  -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.836099010565!2d10.184684638992248!3d36.894269052036854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cb32a574f131%3A0x736d6f5853a1bd2e!2sReBootKamp%20(RBK%20Tunis)!5e0!3m2!1sfr!2stn!4v1616152182783!5m2!1sfr!2stn"
+            dth="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!-- footer section starts  -->
+
+    <section id="footer" class="container-fluid">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-4 brand">
+
+                <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-twitter-square"></a>
+                    <a href="#" class="fab fa-instagram-square"></a>
+                    <a href="#" class="fab fa-pinterest-square"></a>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 footer-links">
+                <h3>links:</h3>
+                <a href="#home">home</a>
+                <a href="#Category">Category</a>
+                <a href="#about">about</a>
+                <a href="#product">product</a>
+                <a href="#contact">contact</a>
+            </div>
+
+            <div class="col-md-4 text-center text-md-left letter">
+                <h2>newsletter</h2>
+                <input type="text"><br>
+                <input type="submit" value="subscribe">
+            </div>
+
+        </div>
 
 
 
+    </section>
 
+    <script>
+    </script>
+    <script src="../assets/home.js "></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="../assets/home.js"></script>
 </body>
 
 </html>
-/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- list type og cereals -->
+
+<!-- <div id="listCereals ">
+        <div class="card ">
+            <img>
+            <h1></h1>
+            <p class="price "></p>
+            <p></p>
+            <p> <button onclick="buyCereal( '${cereals.title}') " class="btn btn-cereals "></p>
+    </div>
+</div>
+
+    <!-- list type of oil -->
+
+<!--   <div id="listOil ">
+        <div class="card ">
+            <img>
+            <h1></h1>
+            <p class="price "></p>
+            <p></p>
+            <p> <button onclick="buyCereal( '${oil.title}') " class="btn btn-oil "></p>
+    </div>
+</div>-->
+
+
+
+<!-- list type of seeds -->
+
+<!--<div id="listSeeds ">
+        <div class="card ">
+            <img>
+            <h1></h1>
+            <p class="price "></p>
+            <p></p>
+            <p> <button onclick="buyCereal( '${seeds.title}') " class="btn btn-seeds "></p>
+</div>
+</div>
+-->
+
+
+<!-- cart -->
+
+
+<!--<form name="ShoppingList ">
+    <fieldset>
+        <legend>Shopping cart</legend>
+        <label>Item: <input type="text " name="name "></label>
+        <label>Quantity: <input type="text " name="data "></label>
+
+        <input type="button " value="Save "   onclick="SaveItem() ">
+        <input type="button " value="Update " onclick="ModifyItem() ">
+        <input type="button " value="Delete " onclick="RemoveItem() ">
+    </fieldset>
+    <div id="items_table ">
+        <h2>Shopping List</h2>
+        <table id="list "></table>
+        <label><input type="button " value="Clear " onclick="ClearAll() ">
+        * Delete all items</label>
+    </div>
+</form>
+ -->
