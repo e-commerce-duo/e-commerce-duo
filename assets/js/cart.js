@@ -54,3 +54,14 @@ $(function() {
         }
     }
 })
+
+$(function(){
+                $('#convertir').click(function(){
+                    var x = $('#euro').val();
+                    x = Number(x);
+                
+                    var y = (3.28*x);
+                        $('#tnd').val(y) 
+                    ;
+                });
+            });
